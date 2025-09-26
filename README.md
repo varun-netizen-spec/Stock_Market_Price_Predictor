@@ -1,13 +1,19 @@
-#📈 Stock Market Price Predictor
+# 📈 Stock Market Price Predictor
 
-This project uses Machine Learning in Python to predict whether buying a stock (Tesla, 2010–2017 data) will be profitable.
+## 📂 Dataset
+- Tesla stock price data (2010–2017)  
 
-🚀 Features
+## 🛠️ Models
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- XGBoost Classifier  
 
-Data preprocessing and visualization
+## 📊 Result
+- Logistic Regression: ~54% AUC  
+- SVM: ~44% AUC  
+- XGBoost: ~57% AUC (overfitting)  
 
-Feature engineering (open-close, low-high, quarter-end, etc.)
+## ▶️ Run
+```bash
 
-Models: Logistic Regression, SVM, XGBoost
 
-Evaluation with ROC-AUC and Confusion Matrix
