@@ -13,7 +13,5 @@
 - SVM: ~44% AUC  
 - XGBoost: ~57% AUC (overfitting)  
 
-## ▶️ Run
-```bash
 
 
